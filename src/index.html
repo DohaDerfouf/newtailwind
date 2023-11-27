@@ -16,7 +16,7 @@
       <p class="break-words  text-center">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
     </div>
 </section>
-<section class="container">
+<section class="container mx-auto py-8 px-5 lg:px-0 grid grid-rows-6 lg:grid-rows-2 grid-cols-2 lg:grid-cols-6 gap-5 h-[100vh] lg:h-[40vh]">
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
 
@@ -25,7 +25,7 @@
         <p class="w-52 text-white text-xsmall font-bold font-jakarta">Graphic Design</p>
       </div>
 
-      <div class="bg-orange rounded-lg row-span-1 col-span-1">
+      <div class="bg-orange rounded-lg row-span-1 col-span-1 ">
         <img class="w-16 h-16" alt="" src="assets/pattern-ui-ux.svg">
         <p class="w-52 text-white text-xsmall font-bold font-jakarta">UI/UX</p>
       </div>
@@ -52,22 +52,58 @@
     </div>
   </section>
 
-  <section>
+  <section class="container mx-auto py-5 lg:py-20 px-5 lg:px-0 text-center lg:text-left flex flex-col lg:flex-row justify-between items-center">
     
-      <img class="w-[343] " alt="" src="assets/image-amy.webp">
+      <img class="w-[343] lg:w-9 " alt="" src="assets/image-amy.webp">
       <div class="group-19-copy-4">
         
-          <div class="group-19-copy-2">
-            <h5 class="im-amy-and">I’m Amy, and I’d love to work on your next project</h5>
-            <p class="i-love-working">I love working with others to create beautiful design solutions.
+          <div class="">
+            <h5 class="font-bold text-medium">I’m Amy, and I’d love to work on your next project</h5>
+            <p class="py-6 lg:py-0">I love working with others to create beautiful design solutions.
                I’ve designed everything from brand illustrations to complete mobile apps.
                 I’m also handy with a camera!</p>
-              <button class="flex-shrink-0 w-44 h-11 rounded-full bg-red">Free Consultation</button>
+              <a href="#" class="font-medium text-button text-white bg-red px-10 py-3 rounded-full hover:bg-black">Free Consultation</a >
                 
         </div>
       
     </div>
   </section>
+   
+    <section class="flex flex-col items-center">
 
+      <h1 class="font-bold text-medium py-10">My Work</h1>
+
+      <div class="flex flex-row justify-between">
+   <div>     <img src="assets/image-slide-2.jpg" alt="" class="rounded-lg"></div>
+      <div>  <img src="assets/image-slide-3.jpg" alt="" class="rounded-lg"></div>
+       <div> <img src="assets/image-slide-1.jpg" alt="" class="rounded-lg"></div>
+      </div>
+
+      <div class="flex flex-row py-10">
+        <a href=""><img src="assets/icon-arrow-left.svg" alt=""></a>
+        <a href=""><img src="img/right.png" alt=""></a>
+      </div>
+
+    </section>
+
+
+
+    <section class="container mx-auto my-8 p-10 lg:p-20 bg-black rounded-lg flex flex-col lg:flex-row justify-between items-center">
+      <div class="w-[100%] lg:w-[45%] text-center lg:text-left">
+        <h1 class="font-bold text-medium text-white">Book a call with me</h1>
+        <p class="font-normal text-xsmall text-white py-6 lg:py-0">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+      </div>
+
+      <a href="#" class=" font-medium text-button text-white bg-red px-10 py-3 rounded-full hover:bg-orange">Free Consultation</a>
+    </section>
+   
+
+  </main>
+
+
+  <footer class="container mx-auto flex flex-row justify-between items-center py-8 px-5 lg:px-0">
+    <img src="assets/logo.svg" alt="">
+    <a href="#" class=" font-medium text-button text-white bg-black hover:bg-purple px-10 py-3 rounded-full">Free Consultation</a>
+  </footer>
 </body>
 </html>
